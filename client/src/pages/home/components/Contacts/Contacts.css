@@ -1,0 +1,187 @@
+.contacts{
+    background-color: #132a47;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px;
+
+}
+.contacts_title{
+    text-align: center;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size:2rem;
+    color:white;
+}
+.no_contacts_title{
+    text-align: center;
+    position: relative;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(88, 88, 88);
+}
+
+.main_contacts{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap:70px;
+    row-gap: 20px;
+    width: 1200px;
+    justify-content: center;
+    padding: 40px;
+}
+.contact{
+    background-color: rgb(155, 217, 241);
+    width:320px;
+    font-size: 1.4rem;
+    padding:10px;
+    align-items: center;
+    border-radius: 10px;
+    border:0px transparent;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+.contact:hover{
+    background-color: rgb(112, 154, 170);
+}
+.contact a{
+    text-decoration: none;
+    color:black;
+}
+@media screen and (max-width:1250px){
+    .contacts{
+        background-color: #132a47;
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        position:relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom:20px;
+    
+    }
+    .contacts_title{
+        text-align: center;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.8rem;
+        color:white;
+    }
+
+    
+    .main_contacts{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        column-gap:70px;
+        row-gap: 20px;
+        width: 1200px;
+        justify-content: center;
+        padding: 40px;
+    }
+    .contact{
+        background-color: rgb(155, 217, 241);
+        width:320px;
+        font-size: 1.4rem;
+        padding:10px;
+        align-items: center;
+        border-radius: 10px;
+        border:0px transparent;
+    }
+    .contact:hover{
+        background-color: rgb(112, 154, 170);
+    }
+    .contact a{
+        text-decoration: none;
+        color:black;
+    }
+}
+@media screen and (max-width:1000px){
+    .contacts_title{
+        text-align: center;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.6rem;
+        color:white;
+    }
+    
+    .main_contacts{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        column-gap:50px;
+        row-gap: 17px;
+        width: 470px;
+        justify-content: center;
+        padding: 25px;
+    }
+    .contact{
+        background-color: rgb(155, 217, 241);
+        width:280px;
+        font-size: 1.2rem;
+        padding:8px;
+        align-items: center;
+        border-radius: 10px;
+        border:0px transparent;
+    }
+}
+@media screen and (max-width:780px){
+    .contacts_title{
+        text-align: center;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.4rem;
+        color:white;
+    }
+    
+    .main_contacts{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        column-gap:15px;
+        row-gap: 10px;
+        width: 400px;
+        justify-content: center;
+        padding: 18px;
+    }
+    .contact{
+        background-color: rgb(155, 217, 241);
+        width:210px;
+        font-size: 1rem;
+        padding:8px;
+        align-items: center;
+        border-radius: 10px;
+        border:0px transparent;
+    }
+}
+@media screen and (max-width:480px){
+    .contacts_title{
+        text-align: center;
+        position: relative;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.2rem;
+        color:white;
+    }
+    
+    .main_contacts{
+        display: inline-grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+        width: 330px;
+        justify-content: center;
+        padding: 15px;
+    }
+    .contact{
+        background-color: rgb(155, 217, 241);
+        width:250px;
+        font-size: 1rem;
+        padding:8px;
+        align-items: center;
+        border-radius: 10px;
+        border:0px transparent;
+    }
+}

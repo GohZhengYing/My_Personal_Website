@@ -1,0 +1,103 @@
+.edit_main_picture{
+    background-color: transparent;
+    height:800px;
+    width:100%;
+    display:flex;
+
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    box-sizing: border-box;
+    
+}
+.edit_main_picture_title{
+    margin:0px;
+    text-align: center;
+    color: white;
+}
+.edit_inner_main_picture{
+    background-color: #ffffff;
+    width:1200px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.edit_description_wrap{
+    color: #000000;
+    position:absolute;
+    left:0;
+    height:800px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.edit_picture_wrap_display{
+    background: rgb(34, 41, 139);
+    position:absolute;
+    right:0;
+    height:800px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.edit_picture_wrap{
+    background: rgb(145, 151, 236);
+    position:absolute;
+    right:0;
+    height:800px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.edit_picture_wrap img{
+    height:350px;
+}
+
+.edit_image{
+    height:800px;
+}
+.edit_personal_statement{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(178, 227, 250);
+}
+.edit_personal_statement h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+}
+.edit_education{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(131, 195, 224);
+}
+.edit_education h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+}
+.edit_experience{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(50, 148, 194);
+}
+.edit_experience h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}

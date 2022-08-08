@@ -1,0 +1,23 @@
+.MainError{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.MainError h1{
+    color:rgb(255, 255, 255);
+    font-size: 10rem;
+}
+.MainError h3{
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.MainError button{
+    font-size: 1.5rem;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    border: 0px transparent;
+}

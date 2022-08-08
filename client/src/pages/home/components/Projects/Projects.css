@@ -1,0 +1,451 @@
+.Projects{
+    background-color: transparent;
+    min-height:600px;
+    width:100%;
+    box-sizing: border-box;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project_title{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+}
+.projectsWrap{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.project{
+    padding:10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: #beddfa;
+    height:450px;
+    width:1200px;
+    box-sizing: border-box;
+    position:relative;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.imageSection{
+    background-color: transparent;
+    position:absolute;
+    display: flex;
+    left:0;
+    height:100%;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+}
+.imageWrap{
+    height: 300px;
+    width:300px;
+    overflow: hidden;
+    background:#50b6e6;
+    display: flex;
+    justify-content: center;
+}
+.imageWrap img{
+    height: 300px;
+
+}
+.descriptionSection{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+    height:100%;
+    width:70%;
+    position:absolute;
+    right:10px;
+    background-color: transparent;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.project_skills{
+    z-index: 2;
+    justify-content:flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height:60px;
+    width:1200px;
+    border-radius: 30px;
+    padding:10px;
+}
+
+.project_skill{
+    background:rgb(255, 255, 255);
+    height: 10px;
+    margin-top:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding:10px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+}
+.project_skill h3{
+    color:rgb(50, 148, 194);
+    font-size: 1rem;
+}
+.project_skill img{
+    height:12px;
+    padding: 0px;
+    margin:0px;
+    padding-right:3px;
+}
+@media screen and (max-width:1250px){
+    .Projects{
+        background-color: transparent;
+        min-height:450px;
+        width:100%;
+        box-sizing: border-box;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .project_title{
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .projectsWrap{
+        position: relative;
+        width: 940px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .project{
+        padding:10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-color: #beddfa;
+        height:370px;
+        width:940px;
+        box-sizing: border-box;
+        position:relative;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    .imageWrap{
+        height: 250px;
+        width:250px;
+        overflow: hidden;
+        background:#50b6e6;
+        display: flex;
+        justify-content: center;
+    }
+    .imageWrap img{
+        height: 250px;
+    
+    }
+    .descriptionSection h1{
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    .descriptionSection h2{
+        font-size: 1.4rem;
+        margin-bottom: 0;
+    }
+    .project_skills{
+        z-index: 2;
+        justify-content:flex-start;
+        display: flex;
+        width:940px;
+        border-radius: 30px;
+        padding:0px;
+    }
+    
+    .project_skill{
+        background:rgb(255, 255, 255);
+        height: 1px;
+        margin-top:10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding:10px;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1000px){
+    .Projects{
+        background-color: transparent;
+        min-height:350px;
+        width:100%;
+        box-sizing: border-box;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .project_title{
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .projectsWrap{
+        position: relative;
+        width: 740px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .project{
+        padding:10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-color: #beddfa;
+        height:300px;
+        width:740px;
+        box-sizing: border-box;
+        position:relative;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+    .imageWrap{
+        height: 190px;
+        width:190px;
+        overflow: hidden;
+        background:#50b6e6;
+        display: flex;
+        justify-content: center;
+    }
+    .imageWrap img{
+        height: 190px;
+    
+    }
+    .descriptionSection h1{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    .descriptionSection h2{
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+    .project_skills{
+        z-index: 2;
+        justify-content:flex-start;
+        display: flex;
+        width:740px;
+        height:50px;
+        border-radius: 30px;
+        padding:10px;
+    }
+    
+    .project_skill{
+        background:rgb(255, 255, 255);
+        height: 1px;
+        margin-top:10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding:10px;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width:780px){
+    .Projects{
+        background-color: transparent;
+        min-height:350px;
+        width:100%;
+        box-sizing: border-box;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .project_title{
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .projectsWrap{
+        position: relative;
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .project{
+        padding:10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-color: #beddfa;
+        height:300px;
+        width:470px;
+        box-sizing: border-box;
+        position:relative;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .imageWrap{
+        height: 110px;
+        width:110px;
+        overflow: hidden;
+        background:#50b6e6;
+        display: flex;
+        justify-content: center;
+    }
+    .imageWrap img{
+        height: 110px;
+    
+    }
+    .descriptionSection h1{
+        font-size: 1.2rem;
+    }
+    .descriptionSection h2{
+        font-size: 0.7rem;
+    }
+    .project_skills{
+        z-index: 2;
+        justify-content:flex-start;
+        display: flex;
+        width:470px;
+        height:80px;
+    }
+    
+    .project_skill{
+        background:rgb(255, 255, 255);
+        height: 1px;
+        margin-top:10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding:10px;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:480px){
+    .Projects{
+        background-color: transparent;
+        min-height:250px;
+        width:100%;
+        box-sizing: border-box;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .project_title{
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .projectsWrap{
+        position: relative;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .project{
+        padding:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #beddfa;
+        min-height:400px;
+        height: fit-content;
+        width:350px;
+        box-sizing: border-box;
+        position:relative;
+
+        border-radius: 10px;
+    }
+    .imageSection{
+        position: relative;
+        display: flex;
+        height:200px;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .imageWrap{
+        height: 170px;
+        width:170px;
+        overflow: hidden;
+        background:#50b6e6;
+        display: flex;
+        justify-content: center;
+    }
+    .imageWrap img{
+        height: 170px;
+    
+    }
+    .descriptionSection{
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        color:black;
+        height: fit-content;
+        right:0px;
+        width:100%;
+        align-items: center;
+        text-align: center;
+
+    }
+    .descriptionSection h1{
+        font-size: 1.2rem;
+    }
+    .descriptionSection h2{
+        font-size: 0.7rem;
+    }
+    .project_skills{
+        position: relative;
+        justify-content:center;
+        display: flex;
+        height: fit-content;
+        width:330px;
+    }
+    
+    .project_skill{
+        background:rgb(255, 255, 255);
+        height: 1px;
+        margin-top:5px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding:10px;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,44 @@
+.edit_contacts{
+    background-color: #132a47;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:20px;
+
+}
+.edit_contacts_title{
+    text-align: center;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size:2rem;
+    color:white;
+}
+.edit_main_contacts{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap:70px;
+    row-gap: 20px;
+    width: 1200px;
+    justify-content: center;
+    padding: 40px;
+}
+.edit_contact{
+    background-color: rgb(155, 217, 241);
+    width:320px;
+    font-size: 1.4rem;
+    padding:10px;
+    align-items: center;
+    border-radius: 10px;
+    border:0px transparent;
+}
+.edit_contact:hover{
+    background-color: rgb(112, 154, 170);
+}
+.edit_contact a{
+    text-decoration: none;
+    color:black;
+}

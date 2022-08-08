@@ -1,0 +1,141 @@
+.skills{
+    margin-top: 100px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.skills_title{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+
+}
+.icons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width:1200px;
+    background-color: rgb(180, 220, 255);
+    border-radius: 30px;
+    padding:10px;
+}
+.skill{
+    background:rgb(255, 255, 255);
+    height: 18px;
+    margin-top:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:10px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+}
+.skill h3{
+    color:rgb(50, 148, 194)
+}
+.skill img{
+    height:17px;
+    padding: 0px;
+    margin:0px;
+    padding-right:5px;
+}
+@media screen and (max-width:1250px){
+
+    .skills_title{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.8rem;
+    
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width:940px;
+        background-color: rgb(180, 220, 255);
+        border-radius: 30px;
+        padding:10px;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .skills_title{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+    
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width:720px;
+        background-color: rgb(180, 220, 255);
+        border-radius: 30px;
+        padding:10px;
+    }
+}
+@media screen and (max-width:780px){
+    .skills_title{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.4rem;
+    
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width:460px;
+        background-color: rgb(180, 220, 255);
+        border-radius: 30px;
+        padding:10px;
+    }
+}
+@media screen and (max-width:480px){
+    .skills_title{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+    
+    }
+    .icons{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        width:320px;
+        background-color: rgb(180, 220, 255);
+        border-radius: 30px;
+        padding:5px;
+    }
+    .skill{
+        background:rgb(255, 255, 255);
+        height: 13px;
+        margin-top:15px;
+        margin-right: 5px;
+        margin-left: 5px;
+        padding:5px;
+        border-radius: 20px;
+        display:flex;
+        align-items: center;
+    }
+    .skill h3{
+        color:rgb(50, 148, 194);
+        font-size: 0.9rem;
+    }
+    .skill img{
+        height:10px;
+        padding: 0px;
+        margin:0px;
+        padding-right:5px;
+    }
+}

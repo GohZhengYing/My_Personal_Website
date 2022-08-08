@@ -1,0 +1,59 @@
+.edit_skills{
+    width:100%;
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.edit_skills_title{
+    text-align: center;
+    margin:0px;
+    color:rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+
+}
+.edit_skills_icons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width:1200px;
+    background-color: rgb(180, 220, 255);
+    border-radius: 30px;
+    padding:10px;
+}
+.edit_skill{
+    background:rgb(255, 255, 255);
+    height: 18px;
+    margin-top:20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    max-width: 500px;
+    padding:10px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+}
+.edit_skill img{
+    height:17px;
+    padding: 0px;
+    margin:0px;
+    padding-right:5px;
+    background-color: transparent;
+}
+.edit_skills_icon{
+    height:17px;
+    padding: 0px;
+    margin:0px;
+    padding-right:5px;
+}
+
+.edit_skill h3{
+    color:rgb(50, 148, 194)
+}
+
+

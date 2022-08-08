@@ -1,0 +1,329 @@
+.mainPicture{
+    background-color: transparent;
+    height:800px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.innerMainPicture{
+    background-color: #ffffff;
+    width:1200px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.descriptionWrap{
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    position:absolute;
+    left:0;
+    height:800px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pictureWrap{
+    background: rgb(34, 41, 139);
+    position:absolute;
+    right:0;
+    height:800px;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mainPictureImage{
+    height:800px;
+}
+.personal_statement{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(218, 240, 250);
+}
+.personal_statement h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+}
+.education{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(178, 227, 250);
+}
+.education h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+}
+.experience{
+    text-align: left;
+    height:33.3%;
+    width:100%;
+    background-color: rgb(131, 195, 224);
+}
+.experience h1{
+    padding:0px;
+    margin:0px;
+    border:0px;
+    padding-left: 20px;
+}
+.progress{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1250px){
+    .mainPicture{
+        background-color: transparent;
+        height:700px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        box-sizing: border-box;
+        margin-top: 80px;
+    }
+    .innerMainPicture{
+        background-color: #ffffff;
+        width:900px;
+        position:relative;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .descriptionWrap{
+        position:absolute;
+        left:0;
+        height:700px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pictureWrap{
+        background: rgb(34, 41, 139);
+        position:absolute;
+        right:0;
+        height:700px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .mainPictureImage{
+    
+        height:700px;
+    
+    
+    }
+    
+
+.personal_statement h1{
+    padding-left: 18px;
+    font-size: 1.7rem;
+}
+.education h1{
+    padding-left: 18px;
+    font-size: 1.7rem;
+}
+.experience h1{
+    padding-left: 18px;
+    font-size: 1.7rem;
+}
+}
+@media screen and (max-width:1000px){
+    .mainPicture{
+        background-color: transparent;
+        height:600px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        box-sizing: border-box;
+        margin-top: 60px;
+    }
+    .innerMainPicture{
+        background-color: #ffffff;
+        width:700px;
+        position:relative;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .descriptionWrap{
+        position:absolute;
+        left:0;
+        height:600px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align:left;
+    }
+    .pictureWrap{
+        background: rgb(34, 41, 139);
+        position:absolute;
+        right:0;
+        height:600px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    .mainPictureImage{
+        height:600px;
+    }
+    .personal_statement h1{
+        padding-left: 15px;
+        font-size: 1.4rem;
+    }
+    .education h1{
+        padding-left: 15px;
+        font-size: 1.4rem;
+    }
+    .experience h1{
+        padding-left: 15px;
+        font-size: 1.4rem;
+    }
+    
+}
+@media screen and (max-width:780px){
+    .mainPicture{
+        background-color: transparent;
+        height:500px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        box-sizing: border-box;
+        margin-top: 55px;
+    }
+    .innerMainPicture{
+        background-color: #ffffff;
+        width:470px;
+        position:relative;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .descriptionWrap{
+        position:absolute;
+        left:0;
+        height:500px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pictureWrap{
+        background: rgb(34, 41, 139);
+        position:absolute;
+        right:0;
+        height:500px;
+        width:50%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .mainPictureImage{
+        height:500px;
+    }
+
+.personal_statement h1{
+    padding-left: 12px;
+    font-size: 1rem;
+}
+.education h1{
+    padding-left: 12px;
+    font-size: 1rem;
+}
+.experience h1{
+    padding-left: 12px;
+    font-size: 1rem;
+}
+}
+@media screen and (max-width:480px){
+    .mainPicture{
+        background-color: transparent;
+        height:1000px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        box-sizing: border-box;
+        margin-top: 30px;
+    }
+    .innerMainPicture{
+        background-color: #ffffff;
+        width:320px;
+        position:relative;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .descriptionWrap{
+        position:absolute;
+        bottom:0;
+        height:500px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .pictureWrap{
+        background: rgb(34, 41, 139);
+        position:absolute;
+        top:0;
+        height:500px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .mainPictureImage{
+        height:500px;
+    }
+
+.personal_statement h1{
+    padding-left: 5px;
+    font-size: 1rem;
+}
+.education h1{
+    padding-left: 5px;
+    font-size: 1rem;
+}
+.experience h1{
+    padding-left: 5px;
+    font-size: 1rem;
+}
+}
